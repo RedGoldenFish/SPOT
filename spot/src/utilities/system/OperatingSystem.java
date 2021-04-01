@@ -1,5 +1,7 @@
 package utilities.system;
 
+import java.util.ArrayList;
+
 import utilities.communication.Communicator;
 import utilities.communication.Message;
 
@@ -9,7 +11,6 @@ public class OperatingSystem {
 	
 	public Communicator _communicator;
 	
-	private Message _message;
-	
+	private ArrayList<Message> _aReadMessage;
 	
 }
